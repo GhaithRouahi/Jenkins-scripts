@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = 'https://github.com/GhaithRouahi/React-X-Express-crud-app.git'
-        COMPOSE_PROJECT_NAME = 'basic-app'
-        DEPLOY_PATH = '/home/ubuntu/'  // Change to your actual deployment path
-        SERVER_USER = 'ubuntu'         // Change to your server's SSH user
-        SERVER_IP = '54.211.21.101'    // Change to your server's IP address
+        REPO_URL = ''  // repo url
+        COMPOSE_PROJECT_NAME = ''  // project name
+        DEPLOY_PATH = 'folder/path/'  // Change to your actual deployment path
+        SERVER_USER = ''         // Change to your server's SSH user
+        SERVER_IP = ''    // Change to your server's IP address
     }
 
     stages {
